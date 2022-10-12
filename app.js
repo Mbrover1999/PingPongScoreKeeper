@@ -23,7 +23,7 @@ function updateScores(player, opponent) {
             player.display.classList.add("has-text-success");
             opponent.display.classList.add("has-text-danger");
             player.button.disabled = true;
-            player.button.disabled = true;
+            opponent.button.disabled = true;
         }
         player.display.textContent = player.score;
 
